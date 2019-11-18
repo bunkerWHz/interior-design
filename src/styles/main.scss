@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Circe";
+    src: url(/fonts/Circe-Regular.woff);
+  }
+
+@import "norm.scss";
+
+body {
+    min-width: 320px;
+    padding: 0;
+    margin: 0;
+    background-color: #fdfaf3;
+}
+* {
+    box-sizing: border-box;
+}
+
+picture { display:block; }
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+@import "main-page.scss";
