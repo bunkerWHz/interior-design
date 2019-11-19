@@ -1,0 +1,70 @@
+.main-page {
+    background-color: #fdfaf3;
+    background-image: url(/img/320_header_bg_2.svg), url(/img/320_header_bg.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position:  0 0, -265px 0;
+    height: 608px;
+    &__title {
+color: #ffffff;
+font-family: "Playfair Display";
+font-size: 48px;
+font-weight: 700;
+line-height: 48.19px;
+letter-spacing: 0.26px;
+text-align: center;
+    }
+    &__content  {
+color: #ffffff;
+font-family: "Muller Thin";
+font-size: 18px;
+font-weight: 400;
+letter-spacing: 1.21px;
+text-align: center;
+margin-bottom: 28px;
+    }
+    .slider {
+        display: none;
+        &__controls {
+            display: none;
+        }
+    }
+    .container {
+        width: 280px;
+        margin: 0 auto;
+        height: auto;
+        text-align: center;
+    }
+    .main__header {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        height: 50px;
+        padding-top: 26px;
+    }
+    .burger {
+        display: flex;
+        border: none;
+        margin: 0;
+        margin-left: auto;
+        padding: 0;
+        width: 34px;
+        height: 24px;
+        background-color: transparent;
+        position: relative;
+        &__line {
+            display: inline-block;
+            width: 34px;
+            background-color: #fff;
+            height: 2px;
+        }
+    }
+    .main-header__phone {
+        display: none;
+    }
+    .socials--desktop {
+        display: none;
+    }
+    .main-menu__items {
+        display: none;
+    }
+}

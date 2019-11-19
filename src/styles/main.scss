@@ -1,6 +1,7 @@
 @font-face {
-    font-family: "Circe";
-    src: url(/fonts/Circe-Regular.woff);
+    font-family: "Muller Thin";
+    src: url(/fonts/muller-thin.otf);
+    font-weight: 400;
   }
 
 @import "norm.scss";
@@ -14,7 +15,20 @@ body {
 * {
     box-sizing: border-box;
 }
-
+.btn {
+color: #ffffff;
+font-family: "Raleway";
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 1.34px;
+background-color: #f8a25a;
+display: inline-block;
+text-decoration: none;
+padding: 18px 35px;
+margin: 0 auto;
+box-shadow: 5px 8px 21px 8px rgba(0, 1, 6, 0.06);
+cursor: pointer;
+}
 picture { display:block; }
 
 figure {
