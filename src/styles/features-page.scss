@@ -1,0 +1,31 @@
+.features-page {
+    min-width: 320px;
+    .container {
+        width: 280px;
+        margin: 0 auto;
+    }
+    .feature {
+        &__number {
+opacity: 0.26;
+color: #fea052;
+font-family: "Playfair Display";
+font-size: 85px;
+font-weight: 700;
+letter-spacing: 0.28px;
+        }
+        &__title {
+color: #1a292f;
+font-family: "Raleway";
+font-size: 24px;
+font-weight: 600;
+        }
+        &__content {
+color: #838383;
+font-family: "Raleway";
+font-size: 18px;
+font-weight: 300;
+line-height: 25px;
+letter-spacing: 0.64px;
+        }
+    }
+}
