@@ -16,24 +16,27 @@
         <header class="main__header">
 
         <a href="#" class="header__logo"><img src="/img/320_main_logo.svg" alt="logotip" class="logo__img"></a>
-        <button class="burger" type="button">
-            <span class="burger__line"></span>
-            <span class="burger__line"></span>
-            <span class="burger__line"></span>
-        </button>
-        <ul class="main-menu__items">
-            <li class="main-menu__item"><a href="#" class="item__link"><span class="link__content">ГЛАВНАЯ</span></a></li>
-            <li class="main-menu__item"><a href="#" class="item__link"><span class="link__content">ПРЕИМУЩЕСТВА</span></a></li>
-            <li class="main-menu__item"><a href="#" class="item__link"><span class="link__content">ПОРТФОЛИО</span></a></li>
-            <li class="main-menu__item"><a href="#" class="item__link"><span class="link__content">НАШИ УСЛУГИ</span></a></li>
-            <li class="main-menu__item"><a href="#" class="item__link"><span class="link__content">ОТЗЫВЫ</span></a></li>
-            <li class="main-menu__item"><a href="#" class="item__link"><span class="link__content">КОНТАКТЫ</span></a></li>
-            <ul class="socials socials--mobile">
-                <li class="social"><a href="#" class="social__link"><img src="/img/320_socials_vk.svg" class="link--vk" alt="iconka vk"></a></li>
-                <li class="social"><a href="#" class="social__link"><img src="/img/320_socials_inst.svg" class="link--inst" alt="iconka inst"></a></li>
-                <li class="social"><a href="#" class="social__link"><img src="/img/320_socials_fb.svg" class="link--fb" alt="iconka fb"></a></li>
-            </ul>
-        </ul>
+        <nav class="main-nav">
+                <button class="burger" type="button">
+                        <span class="burger__line"></span>
+                        <span class="burger__line"></span>
+                        <span class="burger__line"></span>
+                    </button>
+                    <ul class="main-menu__items">
+                        <li class="main-menu__item"><a href="#" class="item__link"><span class="link__content">ГЛАВНАЯ</span></a></li>
+                        <li class="main-menu__item"><a href="#" class="item__link"><span class="link__content">ПРЕИМУЩЕСТВА</span></a></li>
+                        <li class="main-menu__item"><a href="#" class="item__link"><span class="link__content">ПОРТФОЛИО</span></a></li>
+                        <li class="main-menu__item"><a href="#" class="item__link"><span class="link__content">НАШИ УСЛУГИ</span></a></li>
+                        <li class="main-menu__item"><a href="#" class="item__link"><span class="link__content">ОТЗЫВЫ</span></a></li>
+                        <li class="main-menu__item"><a href="#" class="item__link"><span class="link__content">КОНТАКТЫ</span></a></li>
+                        <ul class="socials socials--mobile">
+                            <li class="social"><a href="#" class="social__link"><img src="/img/320_socials_vk.svg" class="link--vk" alt="iconka vk"></a></li>
+                            <li class="social"><a href="#" class="social__link"><img src="/img/320_socials_inst.svg" class="link--inst" alt="iconka inst"></a></li>
+                            <li class="social"><a href="#" class="social__link"><img src="/img/320_socials_fb.svg" class="link--fb" alt="iconka fb"></a></li>
+                        </ul>
+                    </ul>
+        </nav>
+       
         <a href="tel:+78008234888" class="main-header__phone">+7 (800) 823  48 88</a>
         </header>
         <h1 class="main-page__title">Дизайн интерьеров</h1>
@@ -128,7 +131,7 @@
         <ul class="services">
             <li class="service"><a href="#" class="service__link">Дизайн жилого помещения</a></li>
             <li class="service"><a href="#" class="service__link">Дизайн отельных комнат</a></li>
-            <li class="service"><a href="#" class="service__link service__link--active">Дизайн коммерческих объектов</a></li>
+            <li class="service service--active"><a href="#" class="service__link">Дизайн коммерческих объектов</a></li>
             <li class="service"><a href="#" class="service__link">Ремонт под ключ</a></li>
             <li class="service"><a href="#" class="service__link">Отделочные работы</a></li>
             <li class="service"><a href="#" class="service__link">Выезд дизайнера на дом</a></li>
@@ -198,55 +201,59 @@
     </div>
 </section>
 <section class="review-page">
-    <ul class="slider">
-        <li class="slide">
-            <div class="slide__wrapper">
-                <img src="" alt="" class="slide__photo">
-                <p class="slide__name"></p>
-                <b class="slide__prof"></b>
-                <p class="slide__review"></p>
-            </div>
-        </li>
-        <li class="slide">
-            <div class="slide__wrapper">
-                <img src="" alt="" class="slide__photo">
-                <p class="slide__name"></p>
-                <b class="slide__prof"></b>
-                <p class="slide__review"></p>
-            </div>
-        </li>
-        <li class="slide">
-            <div class="slide__wrapper">
-                <img src="" alt="" class="slide__photo">
-                <p class="slide__name"></p>
-                <b class="slide__prof"></b>
-                <p class="slide__review"></p>
-            </div>
-        </li>
-        <li class="slide">
-            <div class="slide__wrapper">
-                <img src="" alt="" class="slide__photo">
-                <p class="slide__name"></p>
-                <b class="slide__prof"></b>
-                <p class="slide__review"></p>
-            </div>
-        </li>
-    </ul>
-    <ul class="slider__controls">
-        <li class="slider__control"><a href="#" class="slider__link"></a></li>
-        <li class="slider__control"><a href="#" class="slider__link"></a></li>
-        <li class="slider__control"><a href="#" class="slider__link"></a></li>
-        <li class="slider__control"><a href="#" class="slider__link"></a></li>
-    </ul>
+    <div class="container">
+            <h2 class="review-page__title">Отзывы наших клиентов</h2>
+            <ul class="slider">
+                <li class="slide slide--active">
+                    <div class="slide__wrapper">
+                        <img src="/img/320_review_1.jpg" alt="client" class="slide__photo">
+                        <p class="slide__name">Александра Холодная</p>
+                        <b class="slide__prof">Услуга: интерьер детской</b>
+                        <p class="slide__review">Спасибо студии за замечательный интерьер для моей 4-х летней дочки! Работа прошла быстро и легко, команда выполнила все точно в срок, сделали все как  мы и хотели. В следующий раз обратимся к BRUME!</p>
+                    </div>
+                </li>
+                <li class="slide">
+                    <div class="slide__wrapper">
+                        <img src="/img/320_re" alt="" class="slide__photo">
+                        <p class="slide__name"></p>
+                        <b class="slide__prof"></b>
+                        <p class="slide__review"></p>
+                    </div>
+                </li>
+                <li class="slide">
+                    <div class="slide__wrapper">
+                        <img src="/img/320_review_2.jpg" alt="client 2" class="slide__photo">
+                        <p class="slide__name">Наташа Теплая</p>
+                        <b class="slide__prof">Услуга: интерьер гостинной</b>
+                        <p class="slide__review">Спасибо студии за замечательный интерьер для моей 4-х летней дочки! Работа прошла быстро и легко, команда выполнила все точно в срок, сделали все как  мы и хотели. В следующий раз обратимся к BRUME!</p>
+                    </div>
+                </li>
+                <li class="slide">
+                    <div class="slide__wrapper">
+                        <img src="" alt="" class="slide__photo">
+                        <p class="slide__name"></p>
+                        <b class="slide__prof"></b>
+                        <p class="slide__review"></p>
+                    </div>
+                </li>
+            </ul>
+            <ul class="slider__controls">
+                <li class="slider__control"><a href="#" class="slider__link"></a></li>
+                <li class="slider__control"><a href="#" class="slider__link"></a></li>
+                <li class="slider__control"><a href="#" class="slider__link"></a></li>
+                <li class="slider__control"><a href="#" class="slider__link"></a></li>
+            </ul>
+    </div>
+   
 </section>
 <footer class="footer-page">
     <div class="container">
             <div class="footer__wrapper">
-                    <img src="#" alt="logotip" class="footer__logo">
+                    <img src="/img/320_main_logo.svg" alt="logotip" class="footer__logo">
                     <ul class="footer__socials">
-                        <li class="footer__social"><a href="" class="social__link"><img src="" alt="" class="social__img"></a></li>
-                        <li class="footer__social"><a href="" class="social__link"><img src="" alt="" class="social__img"></a></li>
-                        <li class="footer__social"><a href="" class="social__link"><img src="" alt="" class="social__img"></a></li>
+                        <li class="footer__social"><a href="#" class="social__link"><img src="/img/320_socials_vk.svg" alt="vkontakte" class="social__img social__img--vk"></a></li>
+                        <li class="footer__social"><a href="#" class="social__link"><img src="/img/320_socials_inst.svg" alt="instagram" class="social__img social__img--inst"></a></li>
+                        <li class="footer__social"><a href="#" class="social__link"><img src="/img/320_socials_fb.svg" alt="facebook" class="social__img social__img--fb"></a></li>
                     </ul>
             </div>
             <div class="footer__credentials">BRUME interior, 2017 <img src="#" alt="" class="sredentials__logo"></div>

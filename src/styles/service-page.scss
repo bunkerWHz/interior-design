@@ -1,0 +1,43 @@
+.service-page {
+    min-width: 320px;
+    &__title {
+        color: #00203a;
+        font-family: "Playfair Display";
+        font-size: 45px;
+        font-weight: 700;
+        letter-spacing: -0.6px;
+        text-align: center;
+            }
+    .container {
+        width: 280px;
+        margin: 0 auto;
+    }
+  .services {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      .service {
+          &__link {
+color: #7d7d7d;
+font-family: "Raleway";
+font-size: 22px;
+font-weight: 300;
+text-decoration: none;
+          }
+          &--active {
+              .service__link {
+                color: #00203a;
+                font-weight: 600;
+              }
+              .service__desc {
+                  display: block;
+color: #5e5e5e;
+font-family: "Raleway", sans-serif;
+font-size: 20px;
+font-weight: 300;
+line-height: 30px;
+              }
+          }
+      }
+  }
+}
