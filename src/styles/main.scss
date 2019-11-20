@@ -17,6 +17,7 @@ body {
 }
 .btn {
 color: #ffffff;
+border: none;
 font-family: "Raleway";
 font-size: 14px;
 font-weight: 700;
@@ -42,5 +43,6 @@ figure {
 @import "service-page.scss";
 @import "video-page.scss";
 @import "stages-page.scss";
+@import "form-page.scss";
 @import "review-page.scss";
 @import "footer-page.scss";

@@ -10,6 +10,25 @@
             }
     .container {
         width: 280px;
+        margin: 0 auto;
     }
-
+    .stages {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        .stage__title {
+color: #313131;
+font-family: "Raleway";
+font-size: 24px;
+font-weight: 600;
+line-height: 17.74px;
+        }
+        .stage__desc {
+color: #5e5e5e;
+font-family: "Raleway";
+font-size: 18px;
+font-weight: 300;
+line-height: 25px;
+        }
+    }
 }
