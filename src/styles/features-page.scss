@@ -1,10 +1,19 @@
 .features-page {
     min-width: 320px;
+    padding-top: 35px;
+    padding-bottom: 60px;
     .container {
-        width: 280px;
+        width: 290px;
         margin: 0 auto;
     }
     .feature {
+        margin-bottom: 5px;
+        &:first-child {
+            margin-bottom: -3px;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
         &__number {
 opacity: 0.26;
 color: #fea052;
@@ -12,12 +21,16 @@ font-family: "Playfair Display";
 font-size: 85px;
 font-weight: 700;
 letter-spacing: 0.28px;
+margin-left: -3px;
         }
         &__title {
 color: #1a292f;
-font-family: "Raleway";
+font-family: 'Raleway SemiBold', arial;
 font-size: 24px;
-font-weight: 600;
+font-weight: 400;
+margin-top: 8px;
+margin-bottom: 14px;
+letter-spacing: 0.5px;
         }
         &__content {
 color: #838383;
@@ -25,7 +38,9 @@ font-family: "Raleway";
 font-size: 18px;
 font-weight: 300;
 line-height: 25px;
-letter-spacing: 0.64px;
+letter-spacing: .9px;
+margin-top: 0;
+margin-bottom: 0px
         }
     }
 }

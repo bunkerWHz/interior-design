@@ -1,33 +1,66 @@
 .service-page {
     min-width: 320px;
+    padding-top: 125px;
     &__title {
         color: #00203a;
         font-family: "Playfair Display";
         font-size: 45px;
         font-weight: 700;
-        letter-spacing: -0.6px;
         text-align: center;
+        margin: 0;
+        margin-bottom: 35px;
             }
     .container {
-        width: 280px;
+        width: 290px;
         margin: 0 auto;
+    }
+    .service__info {
+        padding-bottom: 107px;
+    }
+    .service__content {
+        text-align: center;
+        .service__title {
+            display: none;
+        }
+        .service__numb {
+            display: none;
+        }
+        .service__desc {
+            margin: 0;
+            text-align: left;
+            margin-top: 22px;
+color: #5e5e5e;
+font-family: "Raleway";
+font-size: 20px;
+font-weight: 300;
+line-height: 30px;
+        }
     }
   .services {
       margin: 0;
       padding: 0;
       list-style: none;
+      margin-bottom: 59px;
+      
       .service {
+          margin-bottom: 34px;
+          &:last-child{ 
+              margin-bottom: 0;
+          }
           &__link {
 color: #7d7d7d;
 font-family: "Raleway";
 font-size: 22px;
 font-weight: 300;
 text-decoration: none;
+letter-spacing: 0px;
           }
           &--active {
               .service__link {
+                  letter-spacing: 0.7px;
                 color: #00203a;
-                font-weight: 600;
+                font-family: 'Raleway SemiBold', arial;
+                font-weight: 400;
               }
               .service__desc {
                   display: block;

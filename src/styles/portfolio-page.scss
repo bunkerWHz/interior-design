@@ -1,7 +1,8 @@
 .portfolio-page {
     min-width: 320px;
+    padding-top: 34px;
     .container {
-        width: 280px;
+        width: 290px;
         margin: 0 auto;
     }
     &__title {
@@ -9,7 +10,10 @@ color: #00203a;
 font-family: "Playfair Display";
 font-size: 45px;
 font-weight: 700;
+margin: 0;
+text-align: center;
 letter-spacing: 0.32px;
+margin-bottom: 39px;
     }
     .portfolio__types {
         margin: 0;
@@ -17,17 +21,21 @@ letter-spacing: 0.32px;
         list-style: none;
         display: flex;
         flex-direction: column;
+        margin-bottom: 13px;
         .portfolio__type {
             text-decoration: none;
+            padding-bottom: 27px;
             .type__link{
                 text-decoration: none;
 color: #bababa;
+letter-spacing: 0.2px;
 font-family: "Raleway";
 font-size: 22px;
 font-weight: 400;
 &--active {
     color: #00203a;
-    font-weight: 600;
+    letter-spacing: 0.7px;
+    font-family: 'Raleway SemiBold', arial;
 }
             }
         }
@@ -45,16 +53,18 @@ font-weight: 400;
             margin: 0 auto;
             &__link {
                 text-decoration: none;
+                font-size: 22px;
             }
             &--active {
                 display: block;
                 .slide__desc {
                     display: block;
 color: #00203a;
-font-family: "Raleway";
+font-family: 'Raleway SemiBold', arial;
 font-size: 18px;
-font-weight: 600;
-letter-spacing: 0.64px;
+font-weight: 400;
+letter-spacing: 1px;
+margin-top: 18px;
                 }
             }
             &__desc {

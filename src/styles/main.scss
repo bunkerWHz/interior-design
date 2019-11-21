@@ -3,6 +3,11 @@
     src: url(/fonts/muller-thin.otf);
     font-weight: 400;
   }
+  @font-face {
+    font-family: "Raleway";
+    src: url(/fonts/Raleway-Regular.ttf);
+    font-weight: 400;
+  }
 
 @import "norm.scss";
 
@@ -21,6 +26,7 @@ border: none;
 font-family: 'Raleway ExtraBold', arial;
 font-size: 14px;
 font-weight: 400;
+text-align: center;
 letter-spacing: 1.6px;
 display: inline-block;
 text-decoration: none;
@@ -28,6 +34,16 @@ padding: 18px 0 19px;
 margin: 0 auto;
 box-shadow: 5px 8px 21px 8px rgba(0, 1, 6, 0.06);
 cursor: pointer;
+&--rectangle {
+width: 217px;
+color: #00203a;
+font-family: 'Raleway ExtraBold', arial;
+font-size: 15px;
+font-weight: 400;
+letter-spacing: 2.25px;
+border: 2px solid #112537;
+margin-top: 47px;
+}
 &--main-page {
   background-color: #f8a25a;
   width: 223px;
