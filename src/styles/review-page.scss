@@ -1,6 +1,7 @@
 .review-page {
 min-width: 320px;
-padding-bottom: 50px;
+padding-top: 137px;
+padding-bottom: 200px;
     .container {
 width: 295px;
 margin: 0 auto;
@@ -10,17 +11,20 @@ text-align: center;
 color: #00203a;
 font-family: "Playfair Display";
 font-size: 45px;
+line-height: 55px;
+margin: 0 auto;
 font-weight: 700;
 letter-spacing: 0.32px;
+margin-bottom: 75px;
 }
 .slider {
     width: 295px;
+    height: 581px;
     list-style: none;
     display: flex;
     padding: 0;
     margin: 0 auto;
     flex-direction: row;
-height: 581px;
 box-shadow: 4px 7px 37px 14px rgba(0, 0, 1, 0.02);
     &__controls {
         padding: 0;
@@ -31,15 +35,24 @@ box-shadow: 4px 7px 37px 14px rgba(0, 0, 1, 0.02);
 
     }
     .slide {
+        height: 581px;
+        background-color: #ffffff;
         margin: 0 auto;
 text-align: center;
         display: none;
+        width: 295px;
+        &__photo {
+            margin-top: -47px;
+        }
         &__name {
 color: #313131;
 font-family: "Raleway";
 font-size: 24px;
 font-weight: 600;
 line-height: 30px;
+margin: 0;
+margin-top: 8px;
+margin-bottom: 3px;
         }
         &__prof {
 color: #efb172;
@@ -49,12 +62,14 @@ font-weight: 700;
 letter-spacing: 1.4px;
         }
         &__review {
-            width: 256px;
+            width: 270px;
 color: #5e5e5e;
 font-family: "Raleway";
 font-size: 20px;
 font-weight: 300;
 line-height: 30px;
+margin: 0 auto;
+margin-top: 20px;
         }
         &--active {
             display: initial;
@@ -62,7 +77,6 @@ line-height: 30px;
         &__wrapper {
             margin: 0 auto;
             text-align: center;
-            background-color: #ffffff;
         }
     }
 }
