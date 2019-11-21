@@ -18,17 +18,31 @@ body {
 .btn {
 color: #ffffff;
 border: none;
-font-family: "Raleway";
+font-family: 'Raleway ExtraBold', arial;
 font-size: 14px;
-font-weight: 700;
-letter-spacing: 1.34px;
-background-color: #f8a25a;
+font-weight: 400;
+letter-spacing: 1.6px;
 display: inline-block;
 text-decoration: none;
-padding: 18px 35px;
+padding: 18px 0 19px;
 margin: 0 auto;
 box-shadow: 5px 8px 21px 8px rgba(0, 1, 6, 0.06);
 cursor: pointer;
+&--main-page {
+  background-color: #f8a25a;
+  width: 223px;
+  position: relative;
+  &:before {
+    position: absolute;
+    content: "";
+    width: 14px;
+    height: 58px;
+    background-image: url(/img/320_arrow_down.svg);
+    background-repeat: no-repeat;
+    bottom: -88px;
+    left: calc(47% + 1px);
+  }
+}
 }
 picture { display:block; }
 
