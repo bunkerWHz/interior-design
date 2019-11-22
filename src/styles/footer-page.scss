@@ -33,6 +33,18 @@ list-style: none;
 .social__img {
     color: #fff;
     fill: #fff;
+    &--vk {
+width: 30px;
+height: 19px;
+    }
+    &--fb {
+width: 13px;
+height: 26px;
+    }
+    &--inst {
+width: 27px;
+height: 26px;
+    }
 }
         }
     }
