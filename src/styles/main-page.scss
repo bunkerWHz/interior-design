@@ -74,3 +74,40 @@ margin-bottom: 28px;
         display: none;
     }
 }
+
+
+@media screen and (min-width: 768px) {
+    .main-page {
+        height: 1112px;
+        background-image: url(/img/768_main_bg.jpg);
+        background-position: -512px 0;
+        &__title {
+            margin-top: 0;
+            font-size: 100px;
+            line-height: 100px;
+            margin-bottom: 68px;
+        }
+        &__content {
+            font-size: 26px;
+            letter-spacing: 1.46px;
+            line-height: 1.2;
+            margin-bottom: 61px;
+        }
+        .container {
+            width: 695px;
+        }
+        .main__header {
+            height: 45px;
+            padding-top: 61px;
+            margin-bottom: 234px;
+        }
+        .burger {
+            width: 64px;
+            height: 44px;
+            &__line {
+                width: 64px;
+                height: 5px;
+            }
+        }
+    }
+}

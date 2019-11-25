@@ -15,7 +15,13 @@
             <div class="container">
         <header class="main__header">
 
-        <a href="#" class="header__logo"><img src="/img/320_main_logo.svg" alt="logotip" class="logo__img"></a>
+        <a href="#" class="header__logo">
+            <picture>
+                    <source srcset="/img/1360_main_logo.svg" media="(min-width: 1360px)">
+                <source srcset="/img/768_main_logo.svg" media="(min-width: 768px)">
+                    <img src="/img/320_main_logo.svg" alt="logotip" class="logo__img">
+            </picture>
+        </a>
         <nav class="main-nav">
                 <button class="burger" type="button">
                         <span class="burger__line"></span>

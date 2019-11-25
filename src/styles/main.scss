@@ -75,6 +75,25 @@ letter-spacing: 3.3px;
   }
 }
 }
+@media screen and (min-width:768px){
+  .btn {
+    &--main-page {
+      width: 439px;
+      height: 110px;
+      font-size: 30px;
+      letter-spacing: 3.5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+
+ul {
+  padding: 0;
+  margin: 0;
+}
 picture { display:block; }
 
 figure {
