@@ -5,20 +5,21 @@
     .container {
         width: 280px;
         height: 408px;
-
         margin: 0 auto;
         display: flex;
         align-items: center;
-        justify-content: space-around;
         flex-direction: column;
     }
     .footer__wrapper {
         text-align: center;
       width: 100%;
+      padding-top: 99px;
+      margin-bottom: 47px;
         .footer__logo {
 width: 70px;
 height: 40px;
 color: #fff;
+margin-bottom: 38px;
         }
         .footer__socials {
 padding: 0;
@@ -27,6 +28,7 @@ display: flex;
 flex-direction: row;
 justify-content: space-around;
 list-style: none;
+align-items: center;
 .social__link {
     text-decoration: none;
 }
@@ -34,15 +36,12 @@ list-style: none;
     color: #fff;
     fill: #fff;
     &--vk {
-width: 30px;
 height: 19px;
     }
     &--fb {
-width: 13px;
 height: 26px;
     }
     &--inst {
-width: 27px;
 height: 26px;
     }
 }
@@ -54,6 +53,7 @@ font-family: "Raleway";
 font-size: 20px;
 font-weight: 500;
 line-height: 30px;
+margin-bottom: 3px;
   }
   .footer__company-name {
 color: #ffc487;
