@@ -79,8 +79,8 @@ margin-bottom: 28px;
 @media screen and (min-width: 768px) {
     .main-page {
         height: 1112px;
-        background-image: url(/img/768_main_bg.jpg);
-        background-position: -512px 0;
+        background-image: url(/img/320_header_bg_2.svg), url(/img/768_main_bg.jpg);
+        background-position: 0 0, -512px 0;
         &__title {
             margin-top: 0;
             font-size: 100px;
