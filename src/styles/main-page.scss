@@ -1,7 +1,7 @@
 .main-page {
     background-color: #fdfaf3;
     background-image: url(/img/320_header_bg_2.svg), url(/img/320_header_bg.jpg);
-    background-repeat: no-repeat, no-repeat;
+    background-repeat: repeat, no-repeat;
     background-position:  0 0, -265px 0;
     height: 608px;
     &__title {
