@@ -77,3 +77,24 @@ margin-top: 18px;
         }
     }
 }
+
+
+@media screen and (min-width: 768px) {
+    .portfolio-page {
+        padding-top: 42px;
+        .container {
+            width: 692px;
+        }
+        &__title {
+            text-align: left;
+        }
+        .portfolio__types {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .slider {
+width: 604px;
+height: 612px;
+        }
+    }
+}
