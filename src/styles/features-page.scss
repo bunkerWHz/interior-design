@@ -1,7 +1,5 @@
 .features-page {
     min-width: 320px;
-    padding-top: 35px;
-    padding-bottom: 60px;
     .container {
         width: 290px;
         margin: 0 auto;
@@ -51,9 +49,38 @@ margin-bottom: 0px
             width: 692px;
         }
         .features {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            height: 1110px;
+            padding-top: 60px;
+            &::before,
+            &::after {
+              content: "";
+              flex-basis: 100%;
+              width: 0;
+              order: 2;
+            }
             .feature {
-                height: 380px;
-                width: 345px;
+                height: 350px;
+                min-width: 345px;
+                width: 50%;
+                &:nth-child(2) {
+                }
+                &:nth-child(even) {
+                    margin-top: 160px;
+                    margin-bottom: 60px;
+                    order: 2;
+                }
+                
+                &:nth-child(odd) {
+                    margin-bottom: 83px;
+                    order: 1;
+                }
+                &:last-child {
+                    margin-top: 40px;
+                    margin-bottom: 0;
+                }
                 &__title {
                     width: 265px;
                 }
