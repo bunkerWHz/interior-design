@@ -91,10 +91,22 @@ margin-top: 18px;
         .portfolio__types {
             flex-direction: row;
             justify-content: space-between;
+            margin-bottom: 24px;
         }
         .slider {
+            margin: 0 auto;
+            justify-content: space-between;
 width: 604px;
 height: 612px;
+.slide--active {
+    .slide__desc {
+        text-align: center;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    margin-top: 44px;
+    }
+}
+
         }
     }
 }
