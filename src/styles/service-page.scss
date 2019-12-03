@@ -74,3 +74,58 @@ line-height: 30px;
       }
   }
 }
+
+@media screen and (min-width: 768px) {
+    .service-page {
+        padding-top: 133px;
+        overflow-x: hidden;
+        padding-bottom: 91px;
+        .container {
+            width: 692px;
+        }
+        &__title {
+            word-spacing: 5px;
+            text-align: left;
+            margin-bottom: 47px;
+        }
+        .services {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: 0;
+            height: 236px;
+            align-content: space-between;
+            margin-bottom: 90px;
+        .service {
+            flex-basis: calc(692px / 2 - 20px);
+            margin: 0;
+        &:nth-child(odd) {
+            margin-right: 20px;
+        }
+        }
+        }
+        .service__img {
+            margin-left: -63px;
+        }
+        .service__content {
+            .service__title {
+color: #00203a;
+font-family: "Playfair Display";
+font-size: 30px;
+font-weight: 400;
+letter-spacing: 0.7px;
+display: flex;
+text-align: left;
+margin: 0;
+margin-top: 55px;
+margin-left: 3px;
+margin-bottom: 15px;
+            }
+            .service__desc {
+                margin: 0;
+                width: 500px;
+                letter-spacing: -1px;
+            }
+        }
+    }
+}
