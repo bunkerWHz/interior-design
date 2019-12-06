@@ -32,8 +32,11 @@ color: #313131;
 font-family: "Raleway";
 font-size: 24px;
 font-weight: 600;
-line-height: 17.74px;
+line-height: 24px;
 margin-bottom: 38px;
+&-count{
+    display: none;
+}
         }
         .stage__desc {
             margin: 0;
@@ -43,6 +46,55 @@ letter-spacing: -0.1px;
 font-size: 18px;
 font-weight: 300;
 line-height: 25px;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .stages-page {
+        padding-top: 173px;
+        padding-bottom: 103px;
+        .container {
+            width: 692px;
+        }
+        &__title {
+            text-align: left;
+            margin-bottom: 64px;
+        }
+        .stages {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            .stage {
+                padding-left: 76px;
+                flex-basis: 50%;
+                margin-bottom: 63px;
+                &__title {
+                    letter-spacing: 0.7px;
+                    font-size: 22px;
+                    position: relative;
+                    &-count {
+                        display: flex;
+                        justify-content:center;
+                        align-items: center;
+                        position: absolute;
+                        top: -22px;
+                        left: -82px;
+width: 70px;
+height: 70px;
+background-image: url(/img/768_stages_logo.svg);
+background-repeat: no-repeat;
+color: #00203a;
+font-family: "Raleway";
+font-size: 12px;
+font-weight: 500;
+line-height: 42.28px;
+                    }
+                }
+                &__desc {
+                    letter-spacing: -1px;
+                }
+            }
         }
     }
 }
