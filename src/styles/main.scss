@@ -77,6 +77,10 @@ letter-spacing: 3.3px;
 }
 @media screen and (min-width:768px){
   .btn {
+    &--form-page {
+    margin-top: 10px;
+    width: 475px;
+    }
     &--main-page {
       width: 439px;
       height: 110px;
