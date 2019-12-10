@@ -2,6 +2,7 @@
 min-width: 320px;
 padding-top: 137px;
 padding-bottom: 200px;
+overflow-x: hidden;
     .container {
 width: 295px;
 margin: 0 auto;
@@ -81,4 +82,61 @@ margin-top: 20px;
     }
 }
 
+}
+
+@media screen and (min-width: 768px) { 
+    .review-page {
+        padding-top: 178px;
+        .container {
+            width: 700px;
+        }
+        &__title {
+            text-align: left;
+            margin-bottom: 48px;
+        }
+        .slider {
+            margin: 0;
+            height: 273px;
+                        width: 652px;
+                        .slide {
+                            height: 273px;
+                                            width: 652px;
+                                &__photo {
+                    position: absolute;
+                    right: -110px;
+                    top: 85px;
+                    width: 215px;
+                    height: 192px;
+                }
+                &__name {
+                    margin: 0;
+                    margin-bottom: 5px;
+                    font-size: 22px;
+                    text-align: left;
+                    letter-spacing: 0.5px;
+                }
+                &__prof {
+font-size: 16px;
+letter-spacing: 1.25px;
+display: block;
+text-align: left;
+                }
+                &__review {
+                    text-align: left;
+                    width: 470px;
+                    display: flex;
+                    letter-spacing: 0px;
+                    font-size: 16px;
+                    margin: 0;
+                    margin-top: 25px;
+                    line-height: 26px;
+                }
+                &__wrapper {
+                    position: relative;
+                    padding-top: 47px;
+                    padding-left: 69px;
+                }
+            }
+        }
+    }
 }
