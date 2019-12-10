@@ -63,3 +63,41 @@ font-weight: 500;
 line-height: 30px;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .footer-page {
+    height: 255px;
+    .container {
+      width: 692px;
+      height: unset;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding-top: 78px;
+
+    }
+.footer__wrapper {
+  padding: 0;
+  order: 2;
+  width: 200px;
+  margin: 0;
+}
+.footer__credentials {
+  padding-top: 40px;
+  order: 1;
+  font-size: 16px;
+  margin: 0;
+  &-logo {
+    margin-left: 13px;
+  }
+}
+.footer__company-name {
+  padding-top: 40px;
+  order: 3;
+  font-size: 16px;
+  margin: 0;
+}
+  }
+ 
+}
